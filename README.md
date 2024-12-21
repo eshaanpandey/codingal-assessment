@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# Codingal Assignment 🖥️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Welcome to the Codingal Assessment Platform! This project is designed to provide basic features of the Codingal Platform.
 
-## Available Scripts
+It features a user-friendly interface for managing posts, viewing real-time timers, and handling class endings efficiently.
 
-In the project directory, you can run:
+## Live Link
+The project can be accessed at: 
 
-### `npm start`
+https://eshaan-codingal-assignment.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+- 🚀 React-based UI.
+- 📅 Timer that tracks real-time countdown.
+- 📝 Post management.
+- 🌐 Fully responsive design for desktop and mobile views.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Prerequisites
+Before you start, ensure you have the following installed:
+- **Node.js**: Required for running the app.
+- **npm**: Node Package Manager (comes with Node.js).
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/eshaanpandey/codingal-assessment.git
+cd codingal-assessment
+```
 
-### `npm run build`
+### 2. Install Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Start the Development Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+Your app will be available at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Homepage
+<img width="1440" alt="Homepage1" src="https://github.com/user-attachments/assets/c8a36c0e-7ead-4732-acc6-fb81ba757a8b" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img width="1440" alt="Homepage2" src="https://github.com/user-attachments/assets/5fcfb17c-44f0-406b-9c62-64579edc2c11" />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Posts
+<img width="1440" alt="Posts" src="https://github.com/user-attachments/assets/3c5e814d-d01e-4ce4-a569-e55b45696a82" />
 
-## Learn More
+### Mobile View
+<img width="520" alt="MobileView" src="https://github.com/user-attachments/assets/9ec46aa3-cc50-4061-b852-30868d2efb81" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
