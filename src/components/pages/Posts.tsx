@@ -61,7 +61,13 @@ const Posts: React.FC = () => {
           <p className="text-gray-600">{post.body}</p>
         </div>
       ))}
-      {isLoading && <div className="text-center py-4">Loading...</div>}
+      {isLoading && (
+        <div className="flex items-center justify-center space-x-2 py-4">
+            <div className="w-6 h-6 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
+            <span>Loading...</span>
+        </div>
+        )}
+
       {error && <div className="text-center text-red-500 py-4">{error}</div>}
     </div>
   );
